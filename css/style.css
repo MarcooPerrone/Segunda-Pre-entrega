@@ -1,0 +1,434 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b1d08;
+}
+main{
+    background-color: #2b1d08;
+}
+.main-container {
+    margin-top: 50px;
+  }
+header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b1d08;
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    align-items: center;
+    padding: 5px 10%;
+    font-size: 15px;
+    border-bottom: 2px solid #faf0ca;
+    position: sticky;
+    z-index: 1;
+  }
+  
+  header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li {
+    padding: 0px 30px;
+  }
+  
+  header a {
+    color: #faf0ca;
+    text-decoration: none;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.721);
+  }
+
+
+header a:hover,
+nav a.active {
+    color: #bc8034;
+}
+
+main .col-md-12{
+    color: #faf0ca;
+}
+                                      /*imagen del logo*/
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Ajusta el tamaño de la imagen según lo que necesites */
+  box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.8);
+}
+.rounded {
+    margin: 80px;
+  }
+/* Estilos para los contenedores de las imágenes */
+.borde1,
+.borde2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #faf0ca;
+  height: 150px; /* Ajusta la altura según lo que necesites */
+  width: 150px; /* Ajusta el ancho según lo que necesites */
+  margin: 10px;
+}
+
+/* Estilos para las imágenes */
+.foto1 img,
+.foto2 img {
+  width: 100px; /* Ajusta el tamaño de la imagen según lo que necesites */
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.907);
+}
+
+/* Media query para hacer el header responsive */
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  header ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header li {
+    padding: 5px;
+    text-align: center;
+  }
+
+  /* Ajustar el tamaño de las imágenes en dispositivos más pequeños */
+  .logo img,
+  .borde1,
+  .borde2,
+  .foto1 img,
+  .foto2 img {
+    width: 80px; /* Ajusta el tamaño de la imagen según lo que necesites */
+    height: 80px; /* Ajusta la altura según lo que necesites */
+  }
+}
+                                
+                                        /* titulo principal */
+
+.titulo h1{                          
+    display: flex;
+    margin-top: 20px;
+}
+
+h1{                                      /*titulo Coffee Vending*/
+    justify-content: center;
+    padding-top: 30px;
+    color: #faf0ca;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    word-spacing: 20px;
+    text-shadow:2px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.titulo2 h2{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.texto p{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 800px;
+    justify-content:center;
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 150px;
+    color: #faf0ca;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 2.2;
+}
+.texto2{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 500px;
+    justify-content:center;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 90px;
+    color: #faf0ca;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+}
+.texto3{
+    display: flex;
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-left: 550px;
+    justify-content:center;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 150px;
+    color: #faf0ca;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+.borde2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #faf0ca;
+    height: 300px;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 60px;
+    margin-right: 0;
+    margin-left: 950px;
+    position:absolute;
+}
+.borde3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #faf0ca;
+    height: 300px;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 350px;
+    position:absolute;
+}
+
+.foto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto2 img {
+    width: 250px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.907);
+}
+
+.foto3 img {
+    width: 220px;
+    height: 250px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.907);
+}
+
+.seccion{
+    margin-top: 200px;
+}
+
+.titulo3 h2{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h2{
+    justify-content:center;
+    padding-top: 10px;
+    padding-left: 90px;
+    color: #faf0ca;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-shadow:4px 8px 12px rgba(0, 0, 0, 0.8);  
+    padding-bottom: 50px;  
+}
+
+.bloque{
+    background-color: #faf0ca;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.916);
+}
+.imagen_emp1{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.imagen_emp1 img{
+    width: 120px;
+}
+.imagen_emp2{
+    padding-left: 40px;
+    padding-right: 40px;;
+}
+.imagen_emp2 img{
+    width: 120px;
+}
+.imagen_emp3{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.imagen_emp3 img{
+    width: 120px;
+}
+.imagen_emp4{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.imagen_emp4 img{
+    width: 120px;
+}
+.imagen_emp5{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.imagen_emp5 img{
+    width: 120px;
+}
+.imagen_emp6{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.imagen_emp6 img{
+    width: 120px;
+}
+
+.bloque2{
+    margin-top: 270px;
+    background-color: #faf0ca;
+    height: 220px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.916);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto4{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.foto4 img{
+    width: 230px;
+}
+.foto6{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.foto6 img{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #faf0ca;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color:#bc8034;
+}
+
+footer {
+    background-color: #5d472a;
+    color: #faf0ca;
+    margin-bottom: 0;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    padding-top: 8px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin:5px;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  
+  @media screen and (max-width: 768px) {
+    footer .container {
+      text-align: center;
+    }
+  
+    footer .col-md-5 {
+      margin-bottom: 0px;
+    }
+  }
+
+  
+  main .col-md-6 img{
+    width: 250px;
+  }
+  .rounded {
+    margin: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .rounded {
+      margin: 50px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .rounded {
+      margin: 25px;
+    }
+  }
+

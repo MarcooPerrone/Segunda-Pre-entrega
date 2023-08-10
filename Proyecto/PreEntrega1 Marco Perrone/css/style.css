@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #352f27;
+}
+   
+
+header{
+    top: 0;
+    background-color: #352f27;
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    align-items: center;
+    padding: 5px 10%;
+    font-size: 15px;
+    border-bottom: 2px solid #faf0ca;
+    margin-left: 90px; 
+    margin-right: 90px; 
+    position: sticky;
+    z-index: 1;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 40px;
+    position: sticky;
+}
+
+header a{
+    color: #faf0ca;
+    text-decoration: none;
+    text-shadow:0px 5px 10px rgba(0, 0, 0, 0.721);
+}
+
+header a:hover,
+nav a.active {
+    color: #bc8034;
+}
+
+
+.logo {
+    position: absolute;
+    margin-top: 40px;
+    left: 400px;
+  }
+  
+  
+.logo img {
+    display: flex;
+    width: 300px;
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.8);
+ 
+}
+
+
+.borde1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #faf0ca;
+    height: 300px;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-right: 0;
+    margin-left: 870px;
+    position: relative;
+}
+  
+.foto1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.foto1 img {
+    width: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.907);
+}
+
+.titulo h1{
+    display: flex;
+    margin-top: 20px;
+}
+
+h1{
+    justify-content: center;
+    padding-top: 20px;
+    color: #faf0ca;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    word-spacing: 20px;
+    text-shadow:2px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #1d1b18;
+    color: #faf0ca;
+    text-align: center;
+  }
+  
+.piePagina {
+    position: relative;
+    background-color: #281705;
+    height: 127px;
+    width: 100%;
+    margin-top: 50px;
+    border-top: #faf0ca solid 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #faf0ca;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+  
+.piePagina h3 {
+    display: block;
+    margin: 0;
+}
+  
+.noBold {
+    font-weight: normal;
+    font-size: 15px;
+}
+  
+.email {
+    margin-left: 250px;
+    text-align: left;
+}
+.email p{
+    padding: 5px;
+}
+  
+.tel {
+    margin-right: 690px;
+    text-align: center;
+}
+.tel p{
+    padding: 5px;
+}

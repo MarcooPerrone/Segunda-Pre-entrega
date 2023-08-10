@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../multimedia/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="ruta-a-bootstrap/css/bootstrap.min.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                  <a href="../index.html"><b>INICIO</b></a>
+                </li>
+                <li>
+                  <a href="sobre_nosotros.html"><b>SOBRE NOSOTROS</b></a>
+                </li>
+                <li>
+                  <a href="servicios.html"><b>SERVICIOS</b></a>
+                </li>
+                <li>
+                  <a href="vending.html"><b>VENDING</b></a>
+                </li>
+                <li>
+                  <a href="contacto.html" class="active"><b>CONTACTO</b></a>
+                </li>
+              </ul>
+            </nav>
+    </header>
+
+    <main>
+      <form action="procesar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </main>
+
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <div class="email">
+                      <h3><b>EMAIL</b></h3>
+                      <p>jyg_vending@yahoo.com.ar</p>
+                      <p>jygvending@gmail.com</p>
+                  </div>
+              </div>
+              <div class="col-md-5">
+                  <div class="tel">
+                      <h3><b>TELEFONO</b></h3>
+                      <p>2477210362</p>
+                      <p>2477614004</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    
+
+</body>
+</html>
